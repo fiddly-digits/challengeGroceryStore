@@ -57,14 +57,13 @@ html, body {
     display: inline-block;
     position: sticky;
     bottom: 100%;
-
 }
 
 .search {
     border-radius: 60px;
     height: 30px;
     width: 200px;
-    font-family: Arial, FontAwesome;
+    font-family: rubik, FontAwesome;
     align-self: center;
 }
 
@@ -91,6 +90,8 @@ html, body {
 hr.solid {
     border-top: 2px solid #cacaca;
     border-radius: 5px;
+	/* border-bottom: 1px solid #1f1209; */
+	/* box-shadow: 0 20px 20px -20px #333; */
 }
 
 .flex-body {
@@ -113,12 +114,12 @@ hr.solid {
 
 .text-body a {
     background-color: #fdcc52;
-    border: solid 15px #fdcc52;
     border-radius: 120px;
     height: 100px;
     font-size: 20px ;
-    font-style: normal;
     color: black;
+    padding: 15px;
+    text-decoration: none;
 }
 
 .text-body a i {
@@ -130,6 +131,6 @@ hr.solid {
     overflow: hidden;
     /* border: solid 1px red; */
     margin: -100px 0px 10px 0px;
-    flex: 1 1 auto;
+    /* flex: 1 1 auto; */
 }
 
